@@ -20,5 +20,10 @@
       "target": "/var/lib/tailscale",
       "type": "volume"
     }
-  ]
+  ],
+  "features": {
+  "ghcr.io/tailscale/codespace/tailscale": {
+    "version": "latest"
+  }
+}
 }
